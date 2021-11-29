@@ -5,7 +5,7 @@
 This library contains a high-performance circular buffer / ring buffer / cyclic buffer implementation.
 
 ## Highlights
-This library from similar circular buffer libraries due to the following features:
+This library is different from other circular buffer libraries due to the following features:
 1. Zero-allocation ordered-read operations
 2. Modulo-free implementation for faster operations
 3. Useful misc operations like `itemsHead` for a zero-allocation head slice. 
